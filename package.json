@@ -1,0 +1,23 @@
+{
+  "name": "hello-world-api",
+  "version": "1.0.0",
+  "description": "A simple \"Hello World\" API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Software202/nodeJS-master-class.git"
+  },
+  "keywords": [
+    "nodejs",
+    "hello-world"
+  ],
+  "author": "Erisan Hakeem Olasheni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Software202/nodeJS-master-class/issues"
+  },
+  "homepage": "https://github.com/Software202/nodeJS-master-class#readme"
+}
