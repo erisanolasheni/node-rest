@@ -13,7 +13,10 @@ Send a get request to ```/hello``` you will get a response related to this: ``` 
 
 ### Use
 To use this API application, you can add more to the handlers configuration in the ```index.js``` file. 
-#### Example ``` handlers.time =  (data = null, callback) => {
+#### Example 
+```
+// Define your handler function
+handlers.time =  (data = null, callback) => {
         callback(200, {
             'time': new Date()
         })
