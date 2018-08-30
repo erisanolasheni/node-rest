@@ -40,4 +40,4 @@ curl "http://localhost:3000/time"
 Note, for the purpose of the application, I have generated an HTTPS cert.pem and key.pem files in order to make the HTTPS  version work. However, in realtime production server, this 2 files should not be publicly revealed.
 
 If you also wish you generate these SSL cert for development, you can follow this steps: 
-(Generating a self-signed certificate using OpenSSL)[https://www.ibm.com/support/knowledgecenter/en/SSWHYP_4.0.0/com.ibm.apimgmt.cmc.doc/task_apionprem_gernerate_self_signed_openSSL.html]
+[https://www.ibm.com/support/knowledgecenter/en/SSWHYP_4.0.0/com.ibm.apimgmt.cmc.doc/task_apionprem_gernerate_self_signed_openSSL.html](Generating a self-signed certificate using OpenSSL)
