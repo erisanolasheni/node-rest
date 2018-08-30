@@ -12,6 +12,11 @@ var httpServer = http.createServer((req, res) => {
 });
 
 // Create an HTTPS server
+
+// Note, for the purpose of the application, I have generated an HTTPS cert.pem and key.pem 
+// files in order to make the HTTPS  version work. However, in realtime production server, 
+// this 2 files should not be publicly revealed.
+
 var httpsServerOptions = {
     'key': fs.readFileSync('./https/key.pem'),
     'cert': fs.readFileSync('./https/cert.pem')

@@ -7,9 +7,7 @@ var environments = {};
 environments.staging = {
     httpPort: process.env.port || 3000,
     httpsPort: process.env.port || 3001,
-    envName: 'staging',
-    'keyFile': './https/key.pem',
-    'certFile': './https/cert.pem',
+    envName: 'staging'
 }
 
 
@@ -17,9 +15,7 @@ environments.staging = {
 environments.production = {
     httpPort: process.env.port || 5000,
     httpsPort: process.env.port || 5001,
-    envName: 'production',
-    'keyFile': './https/key.pem',
-    'certFile': './https/cert.pem',
+    envName: 'production'
 }
 
 // Get current environment
